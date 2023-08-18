@@ -34,3 +34,5 @@ and modify this file on each branch.
 to create a branch `git branch <branch_name>`
 to switch to another branch `git switch <branch_name>` 
 
+[main] I just switch to beta branch, add some text, commit and switch back.
+As we can see, all modifications I made under beta branch are invisible under main branch.

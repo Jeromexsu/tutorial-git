@@ -25,4 +25,11 @@ git diff --cached
 git log
 ```
 use `-p` to see complete diffs at each step
-use `--stat --summary` to get a nice summary 
+use `--stat --summary` to get a nice summary
+
+# branch
+use `git branch` to create a new branch. We will create a new branch called beta in this project 
+and modify this file on each branch.
+
+
+

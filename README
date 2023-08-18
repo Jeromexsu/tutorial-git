@@ -31,5 +31,6 @@ use `--stat --summary` to get a nice summary
 use `git branch` to create a new branch. We will create a new branch called beta in this project 
 and modify this file on each branch.
 
-
+to create a branch `git branch <branch_name>`
+to switch to another branch `git switch <branch_name>` 
 

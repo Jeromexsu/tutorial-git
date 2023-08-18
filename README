@@ -3,4 +3,19 @@
 git init
 ```
 
+# start to track particular file
+
+```
+git add <file> [files]
+```
+you can use . to add all files in the working directory
+
+# making changes
+Modify some files, then add their updated contents to the index use git add.
+You can see what is about to be committed using git diff with the --cached option.
+```
+git diff --cached
+```
+(Without --cached, git diff will show you any changes that you’ve made but not yet added to the index.)
+
 

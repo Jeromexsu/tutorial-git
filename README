@@ -39,3 +39,9 @@ I will write something in this section, commit it and see what will happen.
 
 [main] I just switch to beta branch, add some text, commit and switch back.
 As we can see, all modifications I made under beta branch are invisible under main branch.
+=======
+
+Use `git merge` to merge two branches. All conflicts will left in the file with marks.
+You should resolve them mannually.
+
+Use `git branch -d <branch_name> to delete branch.

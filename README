@@ -53,3 +53,7 @@ Use `git clone` to clone another project manage by git.
 Make and commit changes on local project.
 Tell the remote end to merge changes by `git pull <remote_add> <branch_name>.
 
+`git fetch` can pull changes made by remote end without merge it. Changes will be stored in another branch.
+If you really want to merge from remote end, use `git merge`.
+Use `git log -p HEAD..FETCH_HEAD` to see what changes has been made since it has been forked on the remote end.
+Use `git log -p HEAD...FETCH_HEAD` to see what changes has been made on both ends. 

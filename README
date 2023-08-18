@@ -45,3 +45,11 @@ Use `git merge` to merge two branches. All conflicts will left in the file with 
 You should resolve them mannually.
 
 Use `git branch -d <branch_name> to delete branch.
+
+# Collaboration
+[changes below are made on another end]
+We use git clone, git pull for collaboration.
+Use `git clone` to clone another project manage by git.
+Make and commit changes on local project.
+Tell the remote end to merge changes by `git pull <remote_add> <branch_name>.
+

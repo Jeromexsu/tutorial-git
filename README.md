@@ -88,4 +88,8 @@ Use `git show <commit>` to check out the detail about this commit. You can use a
 
 You can also give commits the names of your own, using `git tag <name> <commit>`.
 
-
+# Working with github
+The repo on github is basically a remote end of our local repo.
+After initialize the repo and get the web address, use `git remote add origin <addr>` to link both ends.
+The set the upstream of the branch, using `git branch --set-upstream-to=origin/<branch_remote> <branch_local>` to set the upstream branch.
+Then `git push`

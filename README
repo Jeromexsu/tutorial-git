@@ -3,12 +3,14 @@
 git init
 ```
 
-# start to track particular file
+# git add - add new files, stage changes, explained 
 
 ```
 git add <file> [files]
 ```
 you can use . to add all files in the working directory
+
+git add is used both for new and newly modified files, and in both cases it takes a snapshot of the given files and stages that content in the index, ready for inclusion in the next commit.
 
 # making changes
 Modify some files, then add their updated contents to the index use git add.
@@ -18,4 +20,9 @@ git diff --cached
 ```
 (Without --cached, git diff will show you any changes that you’ve made but not yet added to the index.)
 
-
+# view project history
+```
+git log
+```
+use `-p` to see complete diffs at each step
+use `--stat --summary` to get a nice summary 

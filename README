@@ -56,4 +56,12 @@ Tell the remote end to merge changes by `git pull <remote_add> <branch_name>.
 `git fetch` can pull changes made by remote end without merge it. Changes will be stored in another branch.
 If you really want to merge from remote end, use `git merge`.
 Use `git log -p HEAD..FETCH_HEAD` to see what changes has been made since it has been forked on the remote end.
-Use `git log -p HEAD...FETCH_HEAD` to see what changes has been made on both ends. 
+Use `git log -p HEAD...FETCH_HEAD` to see what changes has been made on both ends.
+
+git clone will implicitly add the source as remote repository for the working directory.
+You can mannually add remote repo by `git remote add`.
+To see remote repo, use `git config --get remote.origin.url`
+
+Git also keeps a pristine copy of remote end's branch under the name 'origin/<branch>'.
+To see it, use `git branch -r`.
+ 
